@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap');
+
+* {
+	font-family: 'Fredoka One';
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	font-size: 4vmin;
+	cursor: default;
+	transition: 0.3s;
+	background: #f7f7f7;
+	user-select: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 10vmin;
+}
+
+cursive {
+	font-family: 'Pacifico';
+}
+
+h1 cursive {
+	font-size: 16vmin;
+}
+
+center {
+	line-height: 10vmin;
+}
+
+input, button {
+	font-size: 4vmin;
+	width: 18ch;
+	padding: 1vmin;
+	margin: 1vmin;
+	margin-left: 0vmin;
+	border: 1vmin solid black;
+	border-radius: 2vmin;
+	background: #ffffff;
+}
+
+input:focus, input:hover, button:hover {
+	background: #eeeeee;
+}
+
+input {
+	cursor: text;
+	width: 36ch;
+}
+
+button {
+	cursor: pointer;
+}
+
+#link {
+	width: 32ch;
+}
+
+#token {
+	width: 13ch;
+}
+
+#error {
+	font-size: 3vmin;
+	color: #ff0000;
+	line-height: 3vmin;
+}
+
+#warning {
+	font-size: 3vmin;
+	color: #ffff00;
+	line-height: 3vmin;
+}
+
+#success {
+	font-size: 3vmin;
+	color: #00ff00;
+	line-height: 3vmin;
+}
+

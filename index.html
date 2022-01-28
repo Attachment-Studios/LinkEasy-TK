@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>LinkEasy TK</title>
+
+		<link rel="stylesheet" href="style">
+
+		<script src="extensions"></script>
+		<script src="script" defer></script>
+	</head>
+	<body>
+		<h1><cursive>LinkEasy</cursive><br>ToolKit</h1>
+		<br>
+
+		<center>
+			<div id="error"></div>
+			Link: https://<input type="url" name="link" id="link" autocomplete="off">
+			<br>
+			https://Use.LinkEasy.TK?<input type="text" name="link" id="token" maxlength="12" onclick="this.value=document.getElementById('link').value.token();" autocomplete="off">
+			<br>
+			<button id="go">Activate Link</button>
+		</center>
+	</body>
+</html>
